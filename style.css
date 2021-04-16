@@ -59,3 +59,11 @@ html{
     background-color: mediumpurple;
     color: white;
 }
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.1);
+    opacity: 0.5;
+}
