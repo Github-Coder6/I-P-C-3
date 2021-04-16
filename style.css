@@ -26,18 +26,17 @@ body{
 
 .links{
     float: left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-bottom: 5px;
-    padding-right: 9px;
+    padding: 8px;
+    background-color: hotpink;
+    color: aliceblue;
     font-family: 'Berkshire Swash', cursive;
     font-size: 20px;
     text-decoration: none;
-    text-decoration-color: black;
+    text-decoration-color: #AAAAAA;
 }
 
 .links:hover{
-    background-color: hotpink;
+    background-color: lightyellow;
 }
 
 h3{
@@ -66,4 +65,13 @@ img{
 img:hover{
     transform: scale(0.1);
     opacity: 0.5;
+}
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+#map{
+    padding-left: -35px;
+    padding-right: -35px;
 }
